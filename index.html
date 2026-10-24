@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gato: Chivas vs América</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/functions.js" defer></script>
+</head>
+<body>
+    <h1>Chivas vs América</h1>
+    <p id="estado"></p>
+
+    <div id="tablero">
+        <button type="button" class="casilla" onclick="activo(0)" aria-label="Casilla 1"></button>
+        <button type="button" class="casilla" onclick="activo(1)" aria-label="Casilla 2"></button>
+        <button type="button" class="casilla" onclick="activo(2)" aria-label="Casilla 3"></button>
+        <button type="button" class="casilla" onclick="activo(3)" aria-label="Casilla 4"></button>
+        <button type="button" class="casilla" onclick="activo(4)" aria-label="Casilla 5"></button>
+        <button type="button" class="casilla" onclick="activo(5)" aria-label="Casilla 6"></button>
+        <button type="button" class="casilla" onclick="activo(6)" aria-label="Casilla 7"></button>
+        <button type="button" class="casilla" onclick="activo(7)" aria-label="Casilla 8"></button>
+        <button type="button" class="casilla" onclick="activo(8)" aria-label="Casilla 9"></button>
+    </div>
+
+    <button type="button" id="reiniciar" onclick="reiniciar()">Reiniciar</button>
+</body>
+</html>
